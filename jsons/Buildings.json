@@ -69,7 +69,7 @@
 		"cost": 160,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["[+25]% Production when constructing [Gunpowder] units [in this city] <while at war>"]
+		"uniques": ["[+25]% Production when constructing [Gunpowder] units [in this city]"]
 		"requiredTech": "Gunpowder"
 	},
 ]
