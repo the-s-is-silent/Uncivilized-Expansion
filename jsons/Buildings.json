@@ -31,7 +31,7 @@
 		"name": "Red Cross",
 		"cost": 600,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Hospital] in all cities", "[+2 Food] from every specialist [in all cities]", "All newly-trained [relevant] units [in this city] receive the [Medic I] promotion", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Hospital] in all cities", "[+2 Food] from every specialist [in all cities]", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion", "Cost increases by [30] per owned city"],
 		"requiredTech": "Pharmaceuticals"
 	},
 
