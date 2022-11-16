@@ -13,20 +13,20 @@
 		"cost": 160,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Gunpowder"
-	},
-	{
-		"name": "Transmigration Bureau",
-		"cost": 85,
-		"maintenance": 1,
-		"hurryCostModifier": 40,
-		"uniques": ["Can only be built [in capital]", "[+25]% Production when constructing [Settler] units [in this city]", "Free [Settler] appears", "Requires at least [5] population", "Unsellable"],
-		"requiredTech": "Navigation"
 	},
 
 //National Wonders
 
+	{
+		"name": "Transmigration Bureau",
+		"cost": 215,
+		"maintenance": 2,
+		"isNationalWonder": true,
+		"uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "Free [Settler] appears", "Cost increases by [30] per owned city"],
+		"requiredTech": "Navigation"
+	},
 	{
 		"name": "Red Cross",
 		"cost": 600,
@@ -69,7 +69,7 @@
 		"cost": 160,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["[+25]% Production when constructing [Gunpowder] units [in this city]"]
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Gunpowder"
 	},
 ]
