@@ -24,7 +24,7 @@
 		"cost": 215,
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"uniques": ["[+50]% Production when constructing [Settler] units [in this city]", "Free [Settler] appears", "Cost increases by [30] per owned city"],
+		"uniques": ["[-2] population [in this city]", "[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear", "Cost increases by [30] per owned city"],
 		"requiredTech": "Navigation"
 	},
 	{
