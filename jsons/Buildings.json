@@ -24,14 +24,14 @@
 		"cost": 215,
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"uniques": ["[-2] population [in this city]", "[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear", "Cost increases by [30] per owned city"],
+		"uniques": ["Can only be built [in capital]", "[-2] population [in this city]", "[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear", "Cost increases by [50] per owned city"],
 		"requiredTech": "Navigation"
 	},
 	{
 		"name": "Red Cross",
 		"cost": 600,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Hospital] in all cities", "[+2 Food] from every specialist [in all cities]", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Hospital] in all cities", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion", "Cost increases by [30] per owned city"],
 		"requiredTech": "Pharmaceuticals"
 	},
 
