@@ -58,8 +58,8 @@
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[All] adjacent units to this city heal [10] HP when healing"]
+		"uniques": ["Destroyed when the city is captured", "[All] adjacent units to this city heal [10] HP when healing"],
+		"requiredTech": "Masonry"
 	},
 	{
 		"name": "Silver Rush",
