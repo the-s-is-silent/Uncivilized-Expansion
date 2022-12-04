@@ -16,6 +16,15 @@
 		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Gunpowder"
 	},
+	{
+		"name": "Laser Defense",
+		"cityStrength": 15,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Military Base",
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Lasers"
+	},
 
 //National Wonders
 
