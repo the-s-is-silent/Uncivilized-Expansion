@@ -1,6 +1,14 @@
 [
 //Buildings
 	{
+		"name": "Gunsmith Shop",
+		"cost": 160,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"requiredTech": "Gunpowder"
+	},
+	{
 		"name": "Chocolate House",
 		"requiredNearbyImprovedResources": ["Bananas", "Citrus", "Cocoa", "Cotton", "Dyes", "Incense", "Silk", "Spices", "Sugar", "Wine"],
 		"cost": 100,
@@ -9,12 +17,30 @@
 		"requiredTech": "Navigation"
 	},
 	{
-		"name": "Gunsmith Shop",
-		"cost": 160,
-		"maintenance": 1,
+		"name": "Sewer System",
+		"cost": 200,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
-		"requiredTech": "Gunpowder"
+		"uniques": ["[+15]% growth [in this city]", "[-10]% Unhappiness from [Population] [in this city]"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Aquarium",
+		"happiness": 3,
+		"cost": 360,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]", "[+2 Science] from [Water resource] tiles [in this city]", "[+2 Science] from [Atoll] tiles [in this city]"],
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Supermarket",
+		"food": 4,
+		"cost": 385,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Plantation] tiles [in this city]"],
+		"requiredTech": "Replaceable Parts"
 	},
 	{
 		"name": "Laser Defense",
