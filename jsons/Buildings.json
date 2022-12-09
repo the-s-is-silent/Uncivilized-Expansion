@@ -42,6 +42,15 @@
 		"requiredTech": "Biology"
 	},
 	{
+		"name": "Sanctuary",
+		"cost": 300,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Grove",
+		"uniques": ["[+1 Production, +1 Gold, +1 Science, +1 Culture] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
+		"requiredTech": "Biology"
+	},
+	{
 		"name": "Supermarket",
 		"food": 4,
 		"cost": 385,
