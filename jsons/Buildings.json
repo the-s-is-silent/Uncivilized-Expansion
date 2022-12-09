@@ -2,7 +2,7 @@
 //Buildings
 	{
 		"name": "Grove",
-		"cost": 100,
+		"cost": 150,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food, +1 Faith] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
