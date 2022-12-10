@@ -5,6 +5,7 @@
 		"cost": 150,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
+		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Food, +1 Faith"
 		"uniques": ["[+1 Food, +1 Faith] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
 		"requiredTech": "Calendar"
 	},
@@ -47,6 +48,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Grove",
+		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Production, +1 Gold, +1 Science, +1 Culture"
 		"uniques": ["[+1 Production, +1 Gold, +1 Science, +1 Culture] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
 		"requiredTech": "Biology"
 	},
