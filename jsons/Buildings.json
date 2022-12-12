@@ -43,16 +43,6 @@
 		"requiredTech": "Biology"
 	},
 	{
-		"name": "Sanctuary",
-		"cost": 300,
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Grove",
-		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Production, +1 Gold, +1 Science, +1 Culture"
-		"uniques": ["[+1 Production, +1 Gold, +1 Science, +1 Culture] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
-		"requiredTech": "Biology"
-	},
-	{
 		"name": "Supermarket",
 		"food": 4,
 		"cost": 385,
@@ -73,15 +63,6 @@
 
 //Wonders
 
-	{
-		"name": "St. Basil's Cathedral",
-		"faith": 3,
-		"cost": 625,
-		"isWonder": true,
-		"uniques": ["Must be next to [Tundra]", "Gain a free [Cathedral] [in this city]", "[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]", "Only available <after adopting [Reformation]>", "Hidden when religion is disabled"],
-		"requiredTech": "Architecture",
-		"quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a fourth was in quarters like a melon.' - Katherine Blanche Guthrie"
-	},
 	{
 		"name": "Transmigration Bureau",
 		"cost": 215,
