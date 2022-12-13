@@ -43,6 +43,16 @@
 		"requiredTech": "Biology"
 	},
 	{
+		"name": "Sanctuary",
+		"requiredBuilding": "Grove",
+		"cost": 300,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Production, +1 Gold, +1 Science, +1 Culture"
+		"uniques": ["[+1 Production, +1 Gold, +1 Science, +1 Culture] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
+		"requiredTech": "Biology"
+	},
+	{
 		"name": "Supermarket",
 		"food": 4,
 		"cost": 385,
@@ -50,6 +60,43 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Plantation] tiles [in this city]"],
 		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Geothermal Plant>", "Only available <in cities without a [Offshore Wind Farm]>"]
+	},
+	{
+		"name": "Geothermal Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"uniques": ["Must be next to [Mountain]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Offshore Wind Farm]>"],
+		"requiredTech": "Ecology"
+	},
+	{
+		"name": "Offshore Wind Farm",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"uniques": ["Must be next to [Coast]", "Must not be on [Hill]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Geothermal Plant]>"],
+		"requiredTech": "Ecology"
+	},
+	{
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Geothermal Plant]>", "Only available <in cities without a [Offshore Wind Farm]>"]
 	},
 	{
 		"name": "Laser Defense",
