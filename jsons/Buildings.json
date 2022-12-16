@@ -81,43 +81,6 @@
 		"requiredTech": "Replaceable Parts"
 	},
 	{
-		"name": "Geothermal Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredTech": "Plastics",
-		"uniques": ["Must be next to [Mountain]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Offshore Wind Farm]>"]
-	},
-	{
-		"name": "Solar Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredTech": "Ecology",
-		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Geothermal Plant>", "Only available <in cities without a [Offshore Wind Farm]>"]
-	},
-	{
-		"name": "Offshore Wind Farm",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredTech": "Ecology",
-		"uniques": ["Must be next to [Coast]", "Must not be on [Hill]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Geothermal Plant]>"]
-	},
-	{
-		"name": "Nuclear Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredResource": "Uranium",
-		"requiredTech": "Nuclear Fission",
-		"uniques": ["Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Geothermal Plant]>", "Only available <in cities without a [Offshore Wind Farm]>"]
-	},
-	{
 		"name": "Laser Defense",
 		"cityStrength": 15,
 		"cityHealth": 50,
@@ -142,7 +105,7 @@
 		"isWonder": true,
 		"production": 8,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+15]% [Production] from every [Factory]", "[+25]% [Production] from every [Hydro Plant]", "Must be on [River]", "Must have an owned [Lake] within [2] tiles"],
+		"uniques": ["[+15]% [Production] from every [Factory]", "[+25]% [Production] from every [Hydro Plant]", "Must be on [River]", "Must have an owned [Lakes] within [2] tiles"],
 		"requiredTech": "Plastics",
 		"quote": "'The people turn to a benevolent ruler as water flows downwards and as wild beasts fly to the wilderness.' - Mencius"
 	},
@@ -152,14 +115,6 @@
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Hospital] in all cities", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion", "Cost increases by [30] per owned city"],
 		"requiredTech": "Pharmaceuticals"
-	},
-	{
-		"name": "Biosphere",
-		"cost": 1250,
-		"isWonder": true,
-		"uniques": ["Must be on [River]", "[+3 Science] from every [Forest]", "[+3 Science] from every [Jungle]", "[+3 Science] from every [Marsh]", "[+3 Production] from every [Hydro Plant]", "[+3 Production] from every [Solar Plant]", "[+3 Production] from every [Geothermal Plant]", "[+3 Production] from every [Offshore Wind Farm]"]
-		"requiredTech": "Ecology",
-		"quote": "'We can never have enough of nature.' - Henry David Thoreau"
 	},
 
 //Support for modded civs (New Vegas is the first to be added here because yes I am just a teensy tiny bit of a Fallout simp)
