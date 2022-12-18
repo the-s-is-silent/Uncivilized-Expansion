@@ -10,8 +10,17 @@
 		"requiredTech": "Calendar"
 	},
 	{
+		"name": "Guildhall",
+		"gold": 2,
+		"culture": 2,
+		"cost": 145,
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"requiredTech": "Guilds"		
+	},
+	{
 		"name": "Tavern",
-		"cost": 160,
+		"cost": 120,
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 15,
@@ -43,6 +52,13 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Cotton] tiles [in this city]", "[+2 Gold] from [Sheep] tiles [in this city]", "[+2 Gold] from [Silk] tiles [in this city]"],
 		"requiredTech": "Economics"
+	},
+	{
+		"name": "Drydock",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]", "All newly-trained [{Military} {Water}] units [in this city] receive the [Armor Plating I] promotion"],
+		"requiredTech": "Metallurgy"
 	},
 	{
 		"name": "Sewer System",
@@ -120,16 +136,15 @@
 //Support for modded civs (New Vegas is the first to be added here because yes I am just a teensy tiny bit of a Fallout simp)
 
 	{
-		"name": "King's School of Impersonation",
-		"replaces": "Opera House",
+		"name": "Sharecropper Farm",
+		"replaces": "Granary",
 		"uniqueTo": "New Vegas",
-		"culture": 4,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Culture] per [2] population [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Acoustics"
+		"food": 2,
+		"gold": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 40,
+		"uniques": ["[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Cattle] tiles [in this city]", "[+1 Food] from [Sheep] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Old Mormon Fort",
@@ -142,6 +157,18 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured", "[All] adjacent units to this city heal [10] HP when healing"],
 		"requiredTech": "Masonry"
+	},
+	{
+		"name": "King's School of Impersonation",
+		"replaces": "Opera House",
+		"uniqueTo": "New Vegas",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Culture] per [2] population [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Acoustics"
 	},
 	{
 		"name": "Silver Rush",
