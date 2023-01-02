@@ -3,4 +3,4 @@ Another minor side project which may or may not be a small step towards a greate
 
 Must have the BNW mod or another mod that adds the Cocoa resource which is absent from base game enabled.
 
-Unless otherwise specified, all icons are from [The Noun Project](https://thenounproject.com/).
+Laser Defense uses the [Laser Turret](https://game-icons.net/1x1/delapouite/laser-turret.html) icon by Delapouite found on [Game-icons.net](https://game-icons.net), licensed under Creative Commons. All other icons are from [The Noun Project](https://thenounproject.com/), licensed under Creative Commons or Public Domain.
