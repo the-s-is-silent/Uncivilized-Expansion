@@ -10,6 +10,15 @@
 		"requiredTech": "Calendar"
 	},
 	{
+		"name": "Census Station",
+		"cost": 100,
+		"maintenance": 0,
+		"happiness": -2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] per [4] population [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Mathematics"
+	},
+	{
 		"name": "Guildhall",
 		"gold": 2,
 		"culture": 2,
@@ -69,6 +78,15 @@
 		"requiredTech": "Industrialization"
 	},
 	{
+		"name": "Training Range",
+		"cost": 250,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Gunsmith Shop",
+		"uniques": ["All newly-trained [Ranged Gunpowder] units in this city receive the [Extended Range] promotion"],
+		"requiredTech": "Rifling"
+	},
+	{
 		"name": "Aquarium",
 		"happiness": 3,
 		"cost": 360,
@@ -100,6 +118,8 @@
 		"name": "Laser Defense",
 		"cityStrength": 15,
 		"cityHealth": 50,
+		"cost": 360,
+		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Military Base",
 		"uniques": ["Destroyed when the city is captured"],
@@ -111,9 +131,10 @@
 	{
 		"name": "Transmigration Bureau",
 		"cost": 215,
+		"happiness": -5,
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[-2] population [in this city]", "[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear", "Cost increases by [50] per owned city"],
+		"uniques": ["Can only be built [in capital]", "[-2] population [in this city]", "[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear", "Requires a [Census Station] in all cities", "Cost increases by [50] per owned city"],
 		"requiredTech": "Navigation"
 	},
 	{
