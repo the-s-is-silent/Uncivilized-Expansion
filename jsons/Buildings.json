@@ -125,6 +125,15 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Lasers"
 	},
+	{
+		"name": "Enrichment Facility",
+		"cost": 500,
+		"maintenance": 6,
+		"hurryCostModifier": 100,
+		"requiredBuilding": "Nuclear Plant",
+		"uniques": ["Provides [3] [Uranium]", "[+15]% Production when constructing [Nuclear Missile] units [in this city]", "[+15]% Production when constructing [Giant Death Robot] units [in this city]", "Limited to [2] per Civilization"],
+		"requiredTech": "Nuclear Fusion"
+	},
 
 //Wonders
 
