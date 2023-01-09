@@ -25,6 +25,7 @@
 		"cost": 145,
 		"maintenance": 0,
 		"hurryCostModifier": 15,
+		"requiredBuilding": "Market",
 		"requiredTech": "Guilds"		
 	},
 	{
