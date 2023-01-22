@@ -65,7 +65,7 @@
 	},
 	{
 		"name": "Drydock",
-		"maintenance": 3,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]", "All newly-trained [{Military} {Water}] units [in this city] receive the [Armor Plating I] promotion"],
 		"requiredTech": "Metallurgy"
@@ -114,6 +114,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Plantation] tiles [in this city]"],
 		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Hangar",
+		"production": 2,
+		"cost": 385,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Fighter] units [in this city]", "[+15]% Production when constructing [Bomber] units [in this city]", "New [Fighter] units start with [15] Experience [in this city]", "New [Bomber] units start with [15] Experience [in this city]"], //TODO: This building should add +2 air unit capacity when BNW is implemented
+		"requiredTech": "Flight"
 	},
 	{
 		"name": "Laser Defense",
