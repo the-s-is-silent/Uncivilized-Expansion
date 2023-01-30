@@ -121,7 +121,7 @@
 		"cost": 385,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Fighter] units [in this city]", "[+15]% Production when constructing [Bomber] units [in this city]", "New [Fighter] units start with [15] Experience [in this city]", "New [Bomber] units start with [15] Experience [in this city]"], //TODO: This building should add +2 air unit capacity when BNW is implemented
+		"uniques": ["[+15]% Production when constructing [Air] units [in this city]", "New [Air] units start with [15] Experience [in this city]"], //TODO: This building should add +2 air unit capacity when BNW is implemented
 		"requiredTech": "Flight"
 	},
 	{
