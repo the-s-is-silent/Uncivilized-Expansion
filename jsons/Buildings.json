@@ -129,7 +129,6 @@
 		"name": "Laser Defense",
 		"cityStrength": 15,
 		"cityHealth": 50,
-		"cost": 360,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Military Base",
@@ -138,7 +137,6 @@
 	},
 	{
 		"name": "Enrichment Facility",
-		"cost": 500,
 		"maintenance": 6,
 		"hurryCostModifier": 100,
 		"requiredBuilding": "Nuclear Plant",
