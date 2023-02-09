@@ -65,6 +65,7 @@
 	},
 	{
 		"name": "Drydock",
+		"requiredBuilding": "Harbor",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]", "All newly-trained [{Military} {Water}] units [in this city] receive the [Armor Plating I] promotion"],
@@ -84,7 +85,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Gunsmith Shop",
-		"uniques": ["All newly-trained [Ranged Gunpowder] units in this city receive the [Extended Range] promotion"],
+		"uniques": ["All newly-trained [Ranged Gunpowder] units [in this city] receive the [Extended Range] promotion"],
 		"requiredTech": "Rifling"
 	},
 	{
@@ -141,7 +142,7 @@
 		"maintenance": 6,
 		"hurryCostModifier": 100,
 		"requiredBuilding": "Nuclear Plant",
-		"uniques": ["Provides [3] [Uranium]", "[+15]% Production when constructing [Nuclear Missile] units [in this city]", "[+15]% Production when constructing [Giant Death Robot] units [in this city]", "Limited to [2] per Civilization"],
+		"uniques": ["Provides [3] [Uranium]", "[+15]% Production when constructing [Nuclear Missile] units [in this city]", "[+15]% Production when constructing [Giant Death Robot] units [in this city]", "Limited to [2] per Civilization", "Destroyed when the city is captured"],
 		"requiredTech": "Nuclear Fusion"
 	},
 
@@ -195,7 +196,7 @@
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "[All] adjacent units to this city heal [10] HP when healing"],
+		"uniques": ["Destroyed when the city is captured", "[All] units adjacent to this city heal [+10] HP when healing"],
 		"requiredTech": "Masonry"
 	},
 	{
