@@ -11,7 +11,9 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Gunsmith Shop: Musket by ProSymbols
 - Hangar: Hangar by Graphixs_Art
 - King's School of Impersonation: Elvis Presley by Angelica
+- Kronborg: cathedral by Jakub Ukrop (again, for a complete lack of anything on The Noun Project that would actually befit this building)
 - Old Mormon Fort: tha phae gate by Smalllike
+- Palisade: Fence by ibrandify
 - Red Cross: red cross by Soni Sokell
 - Sanctuary: national park award by Juraj Sedlák
 - Sewer System: Sewer by pause08
@@ -20,5 +22,6 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Supermarket: supermarket by Pham Duy Phuong Hung
 - Tavern: signboard by Laymik
 - Three Gorges Dam: hoover dam by Syawaluddin (Hey, the official games made this mistake, so I'm allowed to as well. Also, there weren't any icons for the correct dam available.)
+- Topkapi Palace: topkaki palace by Linseedstudio
 - Training Facility: Target by vectoriconset10
 - Transmigration Bureau: Immigration by Nithinan Tatah
