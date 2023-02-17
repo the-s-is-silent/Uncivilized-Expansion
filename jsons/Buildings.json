@@ -1,6 +1,15 @@
 [
 //Buildings
 	{
+		"name": "Palisade",
+		"cost": 30,
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Grove",
 		"cost": 150,
 		"maintenance": 0,
@@ -146,6 +155,28 @@
 
 //Wonders
 
+	{
+		"name": "Kronborg",
+		"culture": 2,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"cost": 400,
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+15]% [Gold] from each Trade Route", "[+50]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Astronomy",
+		"quote": "'Where there is no discipline, there is no honor.' - Norse saying"
+	},
+	{
+		"name": "Topkapi Palace",
+		"culture": 1,
+		"happiness": 3,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]", "Hidden when religion is disabled"],
+		"requiredTech": "Gunpowder",
+		"quote": "'The city and the buildings are mine; but I resign to your valor the captives and the spoil, the treasures of gold and beauty; be rich and be happy.' - Mehmet II"
+	},
 	{
 		"name": "Transmigration Bureau",
 		"cost": 215,
