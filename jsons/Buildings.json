@@ -77,7 +77,7 @@
 		"requiredBuilding": "Harbor",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]", "All newly-trained [{Military} {Water}] units [in this city] receive the [Armor Plating I] promotion"],
+		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]", "All newly-trained [{Military} {Water}] units [in this city] receive the [Reinforced Hull] promotion"],
 		"requiredTech": "Metallurgy"
 	},
 	{
@@ -137,7 +137,7 @@
 	{
 		"name": "Laser Defense",
 		"cityStrength": 15,
-		"cityHealth": 50,
+		"cityHealth": 150,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Military Base",
