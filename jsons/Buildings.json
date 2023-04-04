@@ -50,7 +50,8 @@
 		"cost": 160,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]",
+			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Gunpowder"
 	},
 	{
@@ -69,7 +70,9 @@
 		"production": 1,
 		"percentStatBonus": {"production": 10},
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Cotton] tiles [in this city]", "[+2 Gold] from [Sheep] tiles [in this city]", "[+2 Gold] from [Silk] tiles [in this city]"],
+		"uniques": ["[+2 Gold] from [Cotton] tiles [in this city]",
+			"[+2 Gold] from [Sheep] tiles [in this city]",
+			"[+2 Gold] from [Silk] tiles [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -77,7 +80,8 @@
 		"requiredBuilding": "Harbor",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]", "All newly-trained [{Military} {Water}] units [in this city] receive the [Reinforced Hull] promotion"],
+		"uniques": ["Must be next to [Coast]", "New [{Military} {Water}] units start with [15] Experience [in this city]",
+			"All newly-trained [{Military} {Water}] units [in this city] receive the [Reinforced Hull] promotion"],
 		"requiredTech": "Metallurgy"
 	},
 	{
@@ -103,7 +107,8 @@
 		"cost": 360,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Coast]", "[+2 Science] from [Water resource] tiles [in this city]", "[+2 Science] from [Atoll] tiles [in this city]"],
+		"uniques": ["[+2 Science] from [Water resource] tiles [in this city]", "[+2 Science] from [Atoll] tiles [in this city]",
+			"Must be next to [Coast]"],
 		"requiredTech": "Biology"
 	},
 	{
@@ -122,7 +127,10 @@
 		"cost": 385,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Plantation] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Plantation] tiles [in this city]"],
 		"requiredTech": "Replaceable Parts"
 	},
 	{
@@ -131,7 +139,8 @@
 		"cost": 385,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Air] units [in this city]", "New [Air] units start with [15] Experience [in this city]"], //TODO: This building should add +2 air unit capacity when BNW is implemented
+		"uniques": ["[+15]% Production when constructing [Air] units [in this city]", "New [Air] units start with [15] Experience [in this city]"],
+		//TODO: This building should add +2 air unit capacity when BNW is implemented
 		"requiredTech": "Flight"
 	},
 	{
@@ -149,7 +158,9 @@
 		"maintenance": 6,
 		"hurryCostModifier": 100,
 		"requiredBuilding": "Nuclear Plant",
-		"uniques": ["Provides [3] [Uranium]", "[+15]% Production when constructing [Nuclear Missile] units [in this city]", "[+15]% Production when constructing [Giant Death Robot] units [in this city]", "Limited to [2] per Civilization", "Destroyed when the city is captured"],
+		"uniques": ["Provides [3] [Uranium]", "[+15]% Production when constructing [Nuclear Missile] units [in this city]",
+			"[+15]% Production when constructing [Giant Death Robot] units [in this city]",
+			"Limited to [2] per Civilization", "Destroyed when the city is captured"],
 		"requiredTech": "Nuclear Fusion"
 	},
 
@@ -173,7 +184,8 @@
 		"happiness": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]", "Hidden when religion is disabled"],
+		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]",
+			"Hidden when religion is disabled"],
 		"requiredTech": "Gunpowder",
 		"quote": "'The city and the buildings are mine; but I resign to your valor the captives and the spoil, the treasures of gold and beauty; be rich and be happy.' - Mehmet II"
 	},
@@ -183,7 +195,9 @@
 		"happiness": -5,
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[-2] population [in this city]", "[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear", "Requires a [Census Station] in all cities", "Cost increases by [50] per owned city"],
+		"uniques": ["Can only be built [in capital]", "[-2] population [in this city]",
+			"[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear",
+			"Requires a [Census Station] in all cities", "Cost increases by [50] per owned city"],
 		"requiredTech": "Navigation"
 	},
 	{
@@ -191,7 +205,8 @@
 		"isWonder": true,
 		"production": 8,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+15]% [Production] from every [Factory]", "[+25]% [Production] from every [Hydro Plant]", "Must be on [River]", "Must have an owned [Lakes] within [2] tiles"],
+		"uniques": ["[+15]% [Production] from every [Factory]", "[+25]% [Production] from every [Hydro Plant]",
+			"Must be on [River]", "Must have an owned [Lakes] within [2] tiles"],
 		"requiredTech": "Plastics",
 		"quote": "'The people turn to a benevolent ruler as water flows downwards and as wild beasts fly to the wilderness.' - Mencius"
 	},
@@ -199,7 +214,8 @@
 		"name": "Red Cross",
 		"cost": 600,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Hospital] in all cities", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Hospital] in all cities", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion",
+			"Cost increases by [30] per owned city"],
 		"requiredTech": "Pharmaceuticals"
 	},
 
@@ -213,7 +229,10 @@
 		"gold": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 40,
-		"uniques": ["[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Cattle] tiles [in this city]", "[+1 Food] from [Sheep] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -248,7 +267,22 @@
 		"cost": 160,
 		"maintenance": 0,
 		"hurryCostModifier": 0,
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]", "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]",
+			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "New Vegas Steel",
+		"replaces": "Factory",
+		"uniqueTo": "New Vegas",
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"requiredResource": "Coal",
+		"uniques": ["Creates a [Manufactory] improvement on a specific tile", "Unsellable", "Cannot be purchased",
+			"Never destroyed when the city is captured"],
+		"requiredTech": "Industrialization"
 	},
 ]
