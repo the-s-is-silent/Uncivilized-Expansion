@@ -144,6 +144,15 @@
 		"requiredTech": "Flight"
 	},
 	{
+		"name": "Mass Transit System",
+		"cityHealth": 50,
+		"percentStatBonus": {"production": 10},
+		"maintenance": 3,
+		"hurryCostModifier": 40,
+		"uniques": ["[-5]% maintenance on roads and railroads", "[-10]% Unhappiness from [Population] [in this city]"],
+		"requiredTech": "Ecology"
+	},
+	{
 		"name": "Laser Defense",
 		"cityStrength": 15,
 		"cityHealth": 150,
