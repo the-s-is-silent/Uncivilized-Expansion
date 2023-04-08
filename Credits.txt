@@ -12,11 +12,12 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Hangar: Hangar by Graphixs_Art
 - King's School of Impersonation: Elvis Presley by Angelica
 - Kronborg: cathedral by Jakub Ukrop (again, for a complete lack of anything on The Noun Project that would actually befit this building)
+- Mass Transit System: transit center by Kevin (thenounproject.com/iconsplash)
 - New Vegas Steel: Factory by Ardhian Rama
 - Old Mormon Fort: tha phae gate by Smalllike
 - Palisade: Fence by ibrandify
 - Red Cross: red cross by Soni Sokell
-- Reinforced Hull: Armour Plate by Chrisnic
+- Reinforced Hull: Armour Plate by Chris (thenounproject.com/chrisnic)
 - Sanctuary: national park award by Juraj Sedlák
 - Sewer System: Sewer by pause08
 - Sharecropper Farm: out building by Smashicons
@@ -24,6 +25,6 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Supermarket: supermarket by Pham Duy Phuong Hung
 - Tavern: signboard by Laymik
 - Three Gorges Dam: hoover dam by Syawaluddin (Hey, the official games made this mistake, so I'm allowed to as well. Also, there weren't any icons for the correct dam available.)
-- Topkapi Palace: topkapi palace by Linseedstudio
+- Topkapi Palace: topkaki palace by Linseedstudio
 - Training Range: Target by vectoriconset10
 - Transmigration Bureau: Immigration by Nithinan Tatah
