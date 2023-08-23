@@ -14,17 +14,17 @@
 		"cost": 150,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Food, +1 Faith"
+		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Food, +1 Faith",
 		"uniques": ["[+1 Food, +1 Faith] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
 		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Census Station",
-		"cost": 100,
 		"maintenance": 0,
 		"happiness": -2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] per [4] population [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+1 Gold] per [4] population [in this city]",
+			"Destroyed when the city is captured"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -46,6 +46,18 @@
 		"requiredTech": "Machinery"
 	},
 	{
+		"name": "Jeweler",
+		"requiredNearbyImprovedResources": ["Gems", "Gold Ore", "Silver"],
+		"culture": 2,
+		"specialistSlots": {"Merchant": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"uniques": ["[+1 Culture] from [Gems] tiles [in this city]",
+			"[+1 Culture] from [Gold Ore] tiles [in this city]",
+			"[+1 Culture] from [Silver] tiles [in this city]"],
+		"requiredTech": "Machinery"
+	},
+	{
 		"name": "Gunsmith Shop",
 		"cost": 160,
 		"maintenance": 1,
@@ -59,7 +71,8 @@
 		"requiredNearbyImprovedResources": ["Bananas", "Citrus", "Cocoa", "Cotton", "Dyes", "Incense", "Silk", "Spices", "Sugar", "Wine"],
 		"cost": 100,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from [Plantation] tiles [in this city]", "[+2 Gold] from [Cocoa] tiles [in this city]"]
+		"uniques": ["[+1 Gold] from [Plantation] tiles [in this city]",
+			"[+2 Gold] from [Cocoa] tiles [in this city]"],
 		"requiredTech": "Navigation"
 	},
 	{
@@ -86,7 +99,6 @@
 	},
 	{
 		"name": "Sewer System",
-		"cost": 200,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+15]% growth [in this city]", "[-10]% Unhappiness from [Population] [in this city]"],
@@ -107,7 +119,8 @@
 		"cost": 360,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Science] from [Water resource] tiles [in this city]", "[+2 Science] from [Atoll] tiles [in this city]",
+		"uniques": ["[+2 Science] from [Water resource] tiles [in this city]",
+			"[+2 Science] from [Atoll] tiles [in this city]",
 			"Must be next to [Coast]"],
 		"requiredTech": "Biology"
 	},
@@ -117,9 +130,21 @@
 		"cost": 300,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Production, +1 Gold, +1 Science, +1 Culture"
+		"replacementTextForUniques": "Unimproved tiles in this city receive +1 Production, +1 Gold, +1 Science, +1 Culture",
 		"uniques": ["[+1 Production, +1 Gold, +1 Science, +1 Culture] from [All] tiles [in this city] <in [unimproved] [All] tiles>"],
 		"requiredTech": "Biology"
+	},
+	{
+		"name": "Food Processing Plant",
+		"requiredNearbyImprovedResources": ["Salt"],
+		"percentStatBonus": {"food": 5, "production": 15},
+		"specialistSlots": {"Engineer": 1},
+		"cost": 385,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food, +2 Production, +1 Gold] from [Salt] tiles [in this city]",
+			"[+2 Food] from every [Engineer] <in this city>"],
+		"requiredTech": "Refrigeration"
 	},
 	{
 		"name": "Supermarket",
@@ -136,10 +161,10 @@
 	{
 		"name": "Hangar",
 		"production": 2,
-		"cost": 385,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Air] units [in this city]", "New [Air] units start with [15] Experience [in this city]"],
+		"uniques": ["[+15]% Production when constructing [Air] units [in this city]",
+			"New [Air] units start with [15] Experience [in this city]"],
 		//TODO: This building should add +2 air unit capacity when BNW is implemented
 		"requiredTech": "Flight"
 	},
@@ -149,7 +174,8 @@
 		"percentStatBonus": {"production": 10},
 		"maintenance": 3,
 		"hurryCostModifier": 40,
-		"uniques": ["[-5]% maintenance on roads and railroads", "[-10]% Unhappiness from [Population] [in this city]"],
+		"uniques": ["[-5]% maintenance on roads and railroads",
+			"[-10]% Unhappiness from [Population] [in this city]"],
 		"requiredTech": "Ecology"
 	},
 	{
@@ -193,7 +219,9 @@
 		"happiness": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Faith] from every [Barracks]", "[+2 Faith] from every [Armory]", "[+3 Faith] from every [Military Academy]",
+		"uniques": ["[+1 Faith] from every [Barracks]",
+			"[+2 Faith] from every [Armory]",
+			"[+3 Faith] from every [Military Academy]",
 			"Hidden when religion is disabled"],
 		"requiredTech": "Gunpowder",
 		"quote": "'The city and the buildings are mine; but I resign to your valor the captives and the spoil, the treasures of gold and beauty; be rich and be happy.' - Mehmet II"
@@ -205,7 +233,8 @@
 		"maintenance": 2,
 		"isNationalWonder": true,
 		"uniques": ["Can only be built [in capital]", "[-2] population [in this city]",
-			"[+50]% Production when constructing [Settler] units [in this city]", "[2] free [Settler] units appear",
+			"[+50]% Production when constructing [Settler] units [in this city]",
+			"[2] free [Settler] units appear",
 			"Requires a [Census Station] in all cities", "Cost increases by [50] per owned city"],
 		"requiredTech": "Navigation"
 	},
@@ -223,8 +252,8 @@
 		"name": "Red Cross",
 		"cost": 600,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Hospital] in all cities", "All newly-trained [relevant] units [in this city] receive the [Medic] promotion",
-			"Cost increases by [30] per owned city"],
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Medic] promotion",
+			"Requires a [Hospital] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Pharmaceuticals"
 	},
 
@@ -290,8 +319,8 @@
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
 		"requiredResource": "Coal",
-		"uniques": ["Creates a [Manufactory] improvement on a specific tile", "Unsellable", "Cannot be purchased",
-			"Never destroyed when the city is captured"],
+		"uniques": ["Creates a [Manufactory] improvement on a specific tile",
+			"Unsellable", "Cannot be purchased", "Never destroyed when the city is captured"],
 		"requiredTech": "Industrialization"
-	},
+	}
 ]

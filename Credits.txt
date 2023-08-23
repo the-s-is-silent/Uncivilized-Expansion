@@ -4,12 +4,14 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Census Station: census by Solomakhina Maria
 - Chocolate House: Chocolate by Eucalyp
 - Cloth Mill: cloth by rivercon
-- Dockyard: Boatyard by Vector Portal
+- Drydock: Boatyard by Vector Portal
 - Enrichment Facility: tesla electric by Lima Studio (for a complete lack of anything on The Noun Project that would actually befit this building)
+- Food Processing Plant: Food Processing Plant by ProSymbols
 - Grove: Monument by Doodle Icons
 - Guildhall: guild by Iconiqu
 - Gunsmith Shop: Musket by ProSymbols
 - Hangar: Hangar by Graphixs_Art
+- Jeweler: jeweler by Hans Paul Mösl Junior
 - King's School of Impersonation: Elvis Presley by Angelica
 - Kronborg: cathedral by Jakub Ukrop (again, for a complete lack of anything on The Noun Project that would actually befit this building)
 - Mass Transit System: transit center by Kevin (thenounproject.com/iconsplash)
