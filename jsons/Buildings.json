@@ -292,7 +292,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured",
-			"[All] Units adjacent to this city heal [+10] HP when healing"],
+			"[All] Units adjacent to this city heal [10] HP per turn when healing"],
 		"requiredTech": "Masonry"
 	},
 	{
