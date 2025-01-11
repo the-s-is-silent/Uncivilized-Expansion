@@ -1,0 +1,11 @@
+[
+	{
+		"name": "Preserve",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"uniques": [
+			"[+1 Food, +1 Culture, +1 Faith] <for every adjacent [{unimproved} {Land}]>",
+			"Unbuildable <in [resource] tiles>",
+			"Unbuildable <with [1] to [6] adjacent [City center] tiles>"
+		]
+	}
+]
