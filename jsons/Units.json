@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Explorer",
+		"uniques": [
+			"May upgrade to [Archer] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 16,
+		"cost": 105,
+		"requiredTech": "Astronomy",
+		"obsoleteTech": "Archaeology",
+		"promotions": ["Ignore terrain cost"],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Sight <when [Embarked]>",
+			"[+1] Movement <when [Embarked]>",
+			"May upgrade to [Crossbowman] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Surveyor",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 22,
+		"cost": 155,
+		"requiredTech": "Archaeology",
+		"promotions": ["Ignore terrain cost"],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Sight <when [Embarked]>",
+			"[+1] Movement <when [Embarked]>",
+			"May enter foreign tiles without open borders",
+			"May upgrade to [Gatling Gun] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	}
+]

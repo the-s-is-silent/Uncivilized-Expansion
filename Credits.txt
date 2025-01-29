@@ -6,6 +6,7 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Cloth Mill: cloth by rivercon
 - Drydock: Boatyard by Vector Portal
 - Enrichment Facility: tesla electric by Lima Studio (for a complete lack of anything on The Noun Project that would actually befit this building)
+- Explorer: sabre by Rudiyana
 - Food Processing Plant: Food Processing Plant by ProSymbols
 - Grove: Monument by Doodle Icons
 - Guildhall: guild by Iconiqu
@@ -14,10 +15,10 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Jeweler: jeweler by Hans Paul Mösl Junior
 - King's School of Impersonation: Elvis Presley by Angelica
 - Kronborg: cathedral by Jakub Ukrop (again, for a complete lack of anything on The Noun Project that would actually befit this building)
+- Large Hadron Collider: hadron collider by Loritas Medina
 - Mass Transit System: transit center by Kevin (thenounproject.com/iconsplash)
 - New Vegas Steel: Factory by Ardhian Rama
 - Old Mormon Fort: tha phae gate by Smalllike
-- Palisade: Fence by ibrandify
 - Red Cross: red cross by Soni Sokell
 - Reinforced Hull: Armour Plate by Chris (thenounproject.com/chrisnic)
 - Sanctuary: national park award by Juraj Sedlák
@@ -25,8 +26,10 @@ All images that were borrowed from The Noun Project for use in this mod are list
 - Sharecropper Farm: out building by Smashicons
 - Silver Rush: casino by Kiran Shastry
 - Supermarket: supermarket by Pham Duy Phuong Hung
+- Surveyor: Explorer Hat by Kise1ki
 - Tavern: signboard by Laymik
 - Three Gorges Dam: hoover dam by Syawaluddin (Hey, the official games made this mistake, so I'm allowed to as well. Also, there weren't any icons for the correct dam available.)
 - Topkapi Palace: topkaki palace by Linseedstudio
 - Training Range: Target by vectoriconset10
 - Transmigration Bureau: Immigration by Nithinan Tatah
+- Wat Phra Kaew by Kmg Design

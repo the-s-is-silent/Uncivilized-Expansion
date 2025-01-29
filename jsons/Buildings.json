@@ -1,22 +1,15 @@
 [
 //Buildings
 	{
-		"name": "Palisade",
-		"cost": 30,
-		"cityStrength": 2,
-		"cityHealth": 25,
-		"maintenance": 0,
-		"hurryCostModifier": 0,
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
 		"name": "Grove",
 		"cost": 150,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Creates a [Preserve] improvement on a specific tile",
-			"Unsellable"
+			"Creates a [Preserve] improvement on a specific tile <in [Vegetation] tiles>",
+			"Unsellable",
+			"Cannot be purchased",
+			"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Calendar"
 	},
@@ -235,6 +228,18 @@
 //Wonders
 
 	{
+		"name": "Huey Teocalli",
+		"culture": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [
+			"[+1 Food, +1 Production, +1 Culture] from [Lakes] tiles [in all cities]",
+			"Must be next to [Lakes]"
+		],
+		"requiredTech": "Civil Service",
+		"quote": "'But the wrath of Huitzilopochtli was great, and as the sacrifice passed each of the four rooms dedicated to the sun god, the sun disappeared or reappeared in the sky.' - Fray Diego Durán"
+	},
+	{
 		"name": "Kronborg",
 		"culture": 2,
 		"cityStrength": 9,
@@ -258,8 +263,8 @@
 		"isWonder": true,
 		"uniques": [
 			"[+1 Faith] from every [Barracks]",
-			"[+2 Faith] from every [Armory]",
-			"[+3 Faith] from every [Military Academy]",
+			"[+1 Faith] from every [Armory]",
+			"[+1 Faith] from every [Military Academy]",
 			"Only available <when religion is enabled>"
 		],
 		"requiredTech": "Gunpowder",
@@ -282,15 +287,28 @@
 		"requiredTech": "Navigation"
 	},
 	{
-		"name": "Three Gorges Dam",
+		"name": "Wat Phra Kaew",
+		"science": 2,
+		"percentStatBonus": {"science": 25},
 		"isWonder": true,
-		"production": 8,
-		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": [
-			"[+15]% [Production] from every [Factory]",
+			"[+1 Science] from all [{non-[Wonder]} {Faith}] buildings",
+			"Only available <when religion is enabled>",
+			"Only available <after adopting [Humanism]>"
+		],
+		"requiredTech": "Architecture",
+		"quote": "'Better than a thousand useless words is one useful word, hearing which one attains peace.' - The Dhammapada, verse 100"
+	},
+	{
+		"name": "Three Gorges Dam",
+		"culture": 1,
+		"production": 4,
+		"greatPersonPoints": {"Great Engineer": 3},
+		"isWonder": true,
+		"uniques": [
 			"[+25]% [Production] from every [Hydro Plant]",
-			"Must be on [River]",
-			"Must have an owned [Lakes] within [3] tiles"
+			"Gain a free [Hydro Plant] [in this city]",
+			"Must be on [River]"
 		],
 		"requiredTech": "Plastics",
 		"quote": "'The people turn to a benevolent ruler as water flows downwards and as wild beasts fly to the wilderness.' - Mencius"
@@ -305,6 +323,18 @@
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Pharmaceuticals"
+	},
+	{
+		"name": "Large Hadron Collider",
+		"science": 8,
+		"isWonder": true,
+		"uniques": [
+			"[+100]% Yield from every [Academy]",
+			"Free [Great Scientist] appears",
+			"Only available <if [Research Lab] is constructed in all [non-[Puppeted]] cities>"
+		],
+		"requiredTech": "Particle Physics",
+		"quote": "'By studying these processes in the laboratory, the LHC experiments will, in a sense, be looking further back into time than is possible with any telescope.' - John Ellis"
 	},
 
 //Support for modded civs (New Vegas is the first to be added here because yes I am just a teensy tiny bit of a Fallout simp)
