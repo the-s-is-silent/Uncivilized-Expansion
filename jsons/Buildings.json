@@ -6,7 +6,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Creates a [Preserve] improvement on a specific tile <in [Vegetation] tiles>",
+			"Creates a [Preserve] improvement on a specific tile",
 			"Unsellable",
 			"Cannot be purchased",
 			"Never destroyed when the city is captured"
